@@ -23,7 +23,8 @@ nav a:hover {
   color: black;
 }
 nav button,
-hero button {
+hero button,
+.footer-body button {
   /* background-color: hsl(136, 65%, 51%); */
   background: linear-gradient(135deg, hsl(136, 65%, 51%) 40%, cyan);
   border: none;
@@ -121,4 +122,42 @@ hero h1 {
 .card-body {
   padding-left: 20px;
   padding-right: 20px;
+}
+.footer-body {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 10vh;
+  background-color: hsl(233, 26%, 24%);
+  padding: 100px;
+}
+.image-body img {
+  filter: brightness(2) invert(0);
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.font-footer {
+  display: flex;
+}
+.img-icon {
+  margin-right: 8px;
+}
+.img-icon:hover {
+  fill: hsl(136, 65%, 51%);
+}
+.contact:hover {
+  color: greenyellow;
+  cursor: pointer;
+}
+.contact {
+  margin-bottom: 10px;
+  color: white;
+}
+.copy-right {
+  color: gray;
+}
+.coded {
+  background-color: hsl(233, 26%, 24%);
+  color: white;
+  font-size: 15px;
 }
